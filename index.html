@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Manthan Predictor</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <div class="logo">Manthan Predictor</div>
+      <ul class="nav-links">
+        <li><a href="#welcome">Home</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#working">Working</a></li>
+        <li><a href="#try">Try Now</a></li>
+        <li><a href="#feedback">Feedback</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero" id="welcome">
+    <div class="container">
+      <h1 >Welcome to Manthan's Student Predictor</h1>
+      <p class="lead" >An AI-powered model to analyze academic data and predict student performance and well-being. Developed by passionate minds at MIT Academy of Engineering.</p>
+    </div>
+  </section>
+
+  <section class="section" id="features">
+    <div class="container">
+      <h2>Key Features</h2>
+      <ul class="feature-list">
+        <li class="feature-item">🎯 Academic Performance Prediction</li>
+        <li class="feature-item">🧠 Mental Health Risk Detection</li>
+        <li class="feature-item">📚 Personalized Study Recommendations</li>
+        <li class="feature-item">🚀 Real-time Results with Streamlit Deployment</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section" id="working">
+    <div class="container">
+      <h2>How the Model Works</h2>
+      <ul class="working-steps">
+        <li><strong>1. Data Collection:</strong> Gathers data such as grades, attendance, study hours, and social media usage from students.</li>
+        <li><strong>2. Data Preprocessing:</strong> Cleans the data and uses techniques like feature encoding to prepare it for analysis.</li>
+        <li><strong>3. Model Selection:</strong> Uses Random Forest for classification and SMOTE to handle class imbalance for higher accuracy.</li>
+        <li><strong>4. Prediction:</strong> Inputs are passed through the trained model to predict whether a student is likely to pass or fail.</li>
+        <li><strong>5. Personalized Output:</strong> Recommendations are provided including weak subjects, YouTube tutorial links, and tips to improve study habits and well-being.</li>
+        <li><strong>6. Real-Time Access:</strong> Deployed on Streamlit so users can interactively test the model from any device.</li>
+      </ul>
+    </div>
+  </section>
+  
+
+  <section class="section" id="try">
+    <div class="container">
+      <h2>Try Our Model</h2>
+      <p>
+        Experience the power of data-driven predictions by interacting with our live machine learning model.
+        The system evaluates multiple academic and behavioral indicators, such as attendance, study hours,
+        social media usage, and subject scores, to generate personalized academic forecasts.
+      </p>
+      <p>
+        After submitting your information, the model will not only predict whether a student is likely to pass or struggle,
+        but will also provide tailored recommendations. These include weak subject analysis, helpful study strategies, 
+        and well-being suggestions. It’s designed as a smart assistant for students, parents, and educators who want to take 
+        proactive steps towards academic success.
+      </p>
+      <p>
+        Whether you're curious about machine learning applications in education or looking to improve your academic strategy,
+        this tool provides valuable insights at your fingertips.
+      </p>
+      <a class="btn" href="https://model-1-ch6uhyt3njbntkkhdg3mso.streamlit.app/" target="_blank" rel="noopener noreferrer">
+        Launch the Predictor
+      </a>
+          </div>
+  </section>
+  
+
+  <section class="section" id="feedback">
+    <div class="container">
+      <h2>Feedback</h2>
+      <form class="feedback-form">
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your feedback" required></textarea>
+        <button type="submit">Send Feedback</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Manthan – MIT Academy of Engineering. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
